@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de prueba</title>
+        <link rel="icon" href="foto ecoprint sistemas - copia.ico">
+    </head>
+    <body>
+        <a href="#codigo">clic para ir al final</a>
+        <p>
+            Para esto use la etiqueta <b>a href=""</b> y entre las comillas puse <b>#nombre para el id</b>. Luego al final de la pagina genere un id=""  y entre comillas puse el nombre del identificador(en este caso codigo).
+        </p>
+        <p>
+            Para poner la <b>imagen en la pestaña(al lado de página de prueba)</b>  usé la etiqueta link rel="icon" href"nombre de la imagen". Es importante que la imagen esté en formato .ico
+        </p>
+        <h1>Página de prueba creada por juan en html!</h1>
+        <h2>La página esta estructurada en base a los esquemas html5 actuales. Se intento escribir el codigo de manera semánticamente correcta, siguiendo las buenas prácticas.</h2> 
+        <p> 
+            Una pagina única para el único que la ve... xd!
+        </p> 
+        <header>
+            <nav> <p>esto es un "nav", es decir la barra de navegacion de la página. Como no se que secciones poner, solo puse menú 1, menú 2, etc.</p>
+                <ul>
+                    <li> <a href="">menú 1</a> </li>
+                    <li> <a href="">menú 2</a> </li>
+                    <li> <a href="">menú 3</a> </li>
+                    <li> <a href="">menú 4</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <article>
+                <h2>Esta es un <b>h2</b> para marcar que estas etiquetas completan todo el espacio(renglón)</h2>
+    
+               <p>
+                    Ahora voy a probar la etiqueta <b>"a"</b>, la cual sirve para hacer referencia a un    enlace):
+        
+                       <a href="https://www.facebook.com/ecoprintcontinuos">clic para ir a ecoprint sistemas</a> (Ésta seria la manera de hacerlo por medio de un link hacia la pagina externa, pero tambien puedo hacerlo  de  manera interna, hacia una pagina local).
+                </p>
+                 <h3>A ahora voy a probar las etiquetas:</h3>
+                <p>  
+                     <b>negrita(b)</b>, <i>italica(i)</i>, <strike>tachada (strike)  </strike> , hay varios mas. <br><br>si quiero que aparesca abajo(ahora lo estoy usando) uso <b>br</b> para completar el    espacio sin escribir. Esto lo hago porque este tipo de etiquetas no completan todo el espacio(renglón). <br><br><br><br>despues de 4 br seguidos <b>esta es la separación!</b>
+                     Para que el link se abra en otra pestaña  debo usar el atributo target="_blank" despues del link pero dentro de la etiqueta "a". Por ejemplo, usando el link anterior escribiría: a href="https://www.facebook.com/ecoprintcontinuos tarjet=_blank">: <a href="https://www.facebook.com/ecoprintcontinuos" target="_blank">clic para ir a ecoprint sistemas</a>
+                </p>
+                <h3>Por probar las listas</h3>
+                <ul>Lista desordenada(se hace con "ul"):
+                    <li>cerveza</li>
+                    <li>vino</li>
+                    <li>mortadela</li>
+                    <li>pan</li>
+                </ul>
+                <ol>lista ordenada(se hace con "ol"):
+                    <li>cerveza</li>
+                    <li>vino</li>
+                    <li>mortadela</li>
+                    <li>pan</li>
+                </ol> 
+                
+            </article>
+            <article>
+                <h3>codigo. Ahora voy a probar insertar imagenes(se usa la etiqueta "img", esta etiqueta no se cierra.)</h3>
+                <p>
+                    Para insertar la imagen hice lo siguiente img src="aca va a la imagen" alt="" <b>entre estas comillas se pone el nombre que va a aparecer si no se encuentra la imagen(esto es muy importante para el SEO)</b>. Tambien se podria cambiar el tamaño de la imagen, pero eso se debe hacer desde el css. Si modificamos acá, despues desde el css no lo vamos a poder cambiar. <br>
+                    si agrego el atributo <b>title</b>(title="") entre comillas escribo el texto que quiero que aparezca al pasar el cursor sobre la imagen.
+                    (Ésta es una imagen local pero tambien puedo usar un link que me lleve a la imagen)
+                </p>
+                <img src="foto ecoprint sistemas.png" alt="foto ecoprint sistemas" title="Ecoprint sistemas"> 
+                <p> 
+                    de esta manera seria usando el link:
+                </p>
+                <img src="https://scontent.fcnq2-2.fna.fbcdn.net/v/t1.6435-9/156549158_2776637039333363_7778357093100629129_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=6wKOYIzAk2sAX_44oqm&_nc_ht=scontent.fcnq2-2.fna&oh=00_AT9hwk8QuEZs-S1OKTq7vEdqHfVwfUBldAaEB4BN6PtegQ&oe=6225511B" alt="">
+                <h3>Ahora voy a insertar un video con la etiqueta "video" (esta etiqueta si se cierra)</h3>
+                <p>
+                    para que en el video aparezca el boton play hay que poner el atributo controls="". El siguiente video lo puse con la siguiente referencia: video src="promo sistemas.mp4" controls="">video. <br>
+                    Que controles, donde y como aparecen esos controles depende del navegador. Es el navegador quien decide esas opciones. <br>
+                    <b>Este video fue citado localmente, pero tambien puedo usar un link como referencia.</b>
+                </p>
+                <video src="promo sistemas.mp4" controls=""></video>
+                <h3>si quiero poner un audio uso la etiqueta "audio", la cual se debe cerrar.</h3>
+                <p>
+                    Ademas de un audio, puedo usar un video que tenga audio. Por ejemplo, voy a usar el mismo video de antes para que aparezca solo el audio.
+                </p>
+                <audio src="promo sistemas.mp4" controls=""></audio>
+                <h3>Ahora voy a empezar a usar la etiqueta "div", la cual separa el contenido en un box aparte. </h3>
+                <div>
+                    <b>esto es un div de prueba</b> 
+                </div>
+            </article>
+            <article>
+                <h3>A continuación voy a probar los formularios con la etiqueta "form"</h3>
+                <p>
+                    <b>type:</b>  indica formato(texto, password, number, email, color, range, date, time, button, submit, etc.) que va dentro del cuadro.
+                    <b>name:</b>  indica <br>
+                    <b>required:</b>  esta propiedad hace que si o si el cuadro deba ser completado para poder enviar los datos a traves del submin(por defecto se pone enviar). <br>
+                    Todos estos valores van desde el front end al back end.
+                    <b>value:</b> Este atributo hace que aparezca algo dentro de cada <b>input</b>. Si uso esto en password obviamente van a salir solo los puntos o los asteriscos correspondientes a cada caracter.
+                </p>
+                <form>
+                    <input type="text" value="escribir aca tunombre gil!!" name="">
+                    <input type="password" name="">
+                    <input type="number" required name="">
+                    <input type="email" name="">
+                    <input type="color" name="">
+                    <input type="range" min="1" max="100" name="">
+                    <input type="date" name="">
+                    <input type="time" name="">
+                    <input type="button" value="mi botón" name="">
+                    <textarea>escribir algo acá</textarea>
+                    <p>si agrego "readonly" dentro del "textarea", esa area de texto solo podra ser leída, no se podrá modificar. por ejemplo:</p>
+                    <textarea readonly>probá escribir algo aca y verás que no se puede</textarea>
+                    <input type="submit" name="">
+                </form>
+            </article>
+            <article>
+                <h3>En este articulo voy a trabajar con tablas:</h3>
+                <p>
+                    El Elemento de Tabla HTML "table" representa datos en dos o mas dimensiones.
+                   Antes de la creación de CSS, los elementos HTML "table" eran frecuentemente utilizados para la disposición (posicionamiento) de una página. <b>Este uso ha sido desalentado desde HTML 4, y el elemento no debe ser usado para dichos fines.</b>
+                   los <b>"tr"</b> son las filas y los <b>"td"</b> serian las columnas.
+                   <b>border:</b> Este atributo entero define el tamaño del cuadro alrededor de la tabla . Si estuviese puesta en 0, implicaría que dicho atributo sería nulo<b>(No usar este atributo).</b> <br> 
+                    <b>Todos estos atributos deben ser dados desde css.</b>
+                </p>
+                <table border="1px">
+                    <tr>
+                        <td><b>Nombre</b></td>
+                        <td><b>Apellido</b></td>
+                        <td><b>canal youtube</b></td>
+                        <td><b>suscriptores</b></td>
+                    </tr>
+                    <tr>
+                        <td>juan</td>
+                        <td>dominguez</td>
+                        <td>ecopritn sistemas continuos</td>
+                        <td>255</td>
+                    </tr><tr>
+                        <td>megan</td>
+                        <td>fox</td>
+                        <td>lameganfoxs</td>
+                        <td>100.000.000</td>
+                    </tr>
+                </table>
+            </article>
+            <aside>
+                <h3>Esto es un aside:</h3>
+                <p>
+                    <b>Acá voy a completar con una lista, pero podria poner muchas otras cosas.</b> <br>
+                    El elemento HTML <b>"aside"</b> representa una sección de una página que consiste en contenido que está indirectamente relacionado con el contenido principal del documento. Estas secciones son a menudo representadas como barras laterales o como inserciones y contienen una explicación al margen como una definición de glosario, elementos relacionados indirectamente, como publicidad, la biografía del autor, o en aplicaciones web, la información de perfil o enlaces a blogs relacionados. 
+                </p>
+                <ul>
+                    <li><a href="">menú aside 1</a></li>
+                    <li><a href="">menú aside 2</a></li>
+                    <li><a href="">menú aside 3</a></li>
+                    <li><a href="">menú aside 4</a></li>
+                </ul>
+            </aside>
+        </section>
+        <footer>
+            <h4>todos los derechos reservados(puf!)</h4>
+            <p>
+                seguime en las redes solciales:
+            </p>
+            <a href="https://www.facebook.com/ecoprintcorrientes">facebook</a>
+            <a href="https://www.instagram.com/ecoprintsistemas/?hl=es-la">instagram</a>
+            <a href="https://www.youtube.com/channel/UC84G_hynMxVG3KPvbZ_3WZQ">youtube</a>
+        </footer>
+        <h3 id="codigo">final de la pagina</h3>
+    </body>
+</html>
